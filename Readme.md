@@ -9,4 +9,4 @@ from the cohort to infer subject-specific reconstructions of all four cardiac ch
 In this way, we leverage the ability of the network to learn the appearance of cardiac chambers
 in cine cardiac magnetic resonance (CMR) imag
 
-![这是图片](https://github.com/AmberJar/Research/tree/master/images/3d+t_network.png "Magic Gardens")
+![Network](https://github.com/AmberJar/Research/tree/master/images/3d+t_network.png)
