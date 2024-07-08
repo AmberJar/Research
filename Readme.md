@@ -1,5 +1,5 @@
 # 工作记录 —— Paper & News
-## 06/07/2024
+## 01/07/2024-07/07/2024
 **Automatic 3D+t four-chamber CMR quantification of the UK biobank: 
 integrating imaging and non-imaging data priors at scale**
 
@@ -48,3 +48,9 @@ MR-Net, is designed to mimic such a process.
 MR-Net is to reconstruct personalised meshes from sparse contours under the guidance of a template mesh
 
 ![image](/images/3d_reconstruction_regis.png)
+
+
+## 08/07/2024-14/07/2024
+**3D Cardiac Shape Prediction with Deep Neural
+Networks: Simultaneous Use of Images and
+Patient Metadata**
