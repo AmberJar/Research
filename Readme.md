@@ -217,8 +217,9 @@ Text-Segmentation Guidance, Style Guidance, Text-Style Guidance, and FaceID Guid
 
 ---
 **Contextual Position Encoding:Learning to Count What’s Importa**
-总的来说，该研究提出了一种新的用于 transformer 的位置编码方法 CoPE（全称 Contextual Position Encoding），解决了标准 transformer 无法解决的计数和复制任务。传统的位置编码方法通常基于 token 位置，而 CoPE 允许模型根据内容和上下文来选择性地编码位置。CoPE 使得模型能更好地处理需要对输入数据结构和语义内容进行精细理解的任务。文章通过多个实验展示了 CoPE 在处理选择性复制、计数任务以及语言和编码任务中相对于传统方法的优越性，尤其是在处理分布外数据和需要高泛化能力的任务上表现出更强的性能。
 
+总的来说，该研究提出了一种新的用于 transformer 的位置编码方法 CoPE（全称 Contextual Position Encoding），解决了标准 transformer 无法解决的计数和复制任务。
+传统的位置编码方法通常基于 token 位置，而 CoPE 允许模型根据内容和上下文来选择性地编码位置。CoPE 使得模型能更好地处理需要对输入数据结构和语义内容进行精细理解的任务。
+文章通过多个实验展示了 CoPE 在处理选择性复制、计数任务以及语言和编码任务中相对于传统方法的优越性，尤其是在处理分布外数据和需要高泛化能力的任务上表现出更强的性能。
 CoPE 为大型语言模型提供了一种更为高效和灵活的位置编码方式，拓宽了模型在自然语言处理领域的应用范围。
-
 有网友表示，CoPE 的出现改变了在 LLM 中进行位置编码的游戏规则，此后，研究者能够在一个句子中精确定位特定的单词、名词或句子，这一研究非常令人兴奋。
