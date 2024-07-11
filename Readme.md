@@ -186,14 +186,18 @@ ___
 
 ___
 **SLAB: Efficient Transformers with Simplified Linear Attention and Progressive Re-parameterized Batch Normalization (ICML 2024)**
-探索用 BatchNorm 替换 LayerNorm 来加速 Transformer 的推理过程。BatchNorm 导致较低的推理延迟，但可能导致训练崩溃和性能较差，而 LayerNorm 可以稳定训练，但在推理过程中具有额外的计算成本。为此，本文提出一种渐进策略，通过使用超参数来控制两个层的比例，将 LayerNorm 逐渐替换为 BatchNorm。作者还提出了一种新的 BatchNorm (RepBN) 重参数化方法，以提高训练稳定性和整体性能。
-作者提出了一个简化的线性注意 (Simplified Linear Attention, SLA) 模块，该模块利用 ReLU 作为核函数，并结合深度卷积进行局部特征增强。所提出的注意力机制比以前的线性注意力更有效，但仍然获得了相当的性能。
+探索用 BatchNorm 替换 LayerNorm 来加速 Transformer 的推理过程。BatchNorm 导致较低的推理延迟，但可能导致训练崩溃和性能较差，
+而 LayerNorm 可以稳定训练，但在推理过程中具有额外的计算成本。为此，本文提出一种渐进策略，通过使用超参数来控制两个层的比例，
+将 LayerNorm 逐渐替换为 BatchNorm。作者还提出了一种新的 BatchNorm (RepBN) 重参数化方法，以提高训练稳定性和整体性能。
+作者提出了一个简化的线性注意 (Simplified Linear Attention, SLA) 模块，该模块利用 ReLU 作为核函数，并结合深度卷积进行局部特征增强。
+所提出的注意力机制比以前的线性注意力更有效，但仍然获得了相当的性能。
 本文的渐进式重参数化 BatchNorm 在图像分类和目标检测任务上表现出了强大的性能，以较低的推理延时获得了相当的精度。
 
 ![image](/images/SLA.png)
 
 ---
 **Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer**
+
 扩散模型在图像生成方面表现出了很显著的性能。然而对于生成超高分辨率的图像 (比如 4096 ×4096) 而言，由于其 Memory 也会二次方增加，
 因此生成的图像的分辨率通常限制在 1024×1024。在这项工作中。作者提出了一种单向块注意力机制，可以在推理过程中自适应地调整显存开销并处理全局依赖关系。
 在这个模块的基础上，作者使用 DiT 的架构，并逐渐执行上采样，最终开发了一个无限的超分辨率模型 Inf-DiT，能够对各种形状和分辨率的图像进行上采样。综合实验表明，
