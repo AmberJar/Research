@@ -1,4 +1,7 @@
 # 工作记录 —— Paper & News
+<details>
+<summary>01/07/2024-07/07/2024</summary>
+
 ## 01/07/2024-07/07/2024
 **Automatic 3D+t four-chamber CMR quantification of the UK biobank: 
 integrating imaging and non-imaging data priors at scale**
@@ -55,10 +58,14 @@ MR-Net is to reconstruct personalised meshes from sparse contours under the guid
 
 > 提出了一种不同于传统迭代推理得到结果的方法，提出了一种基于深度学习的网络替代迭代，而是直接通过稀疏结果预测，
 > 从稀疏的CMR图像出发，通过点云重构心脏mesh
+</details>
+
+<details>
+<summary>08/07/2024-14/07/2024</summary>
 
 ## 08/07/2024-14/07/2024
-**Recovering from Missing Data in Population Imaging – Cardiac MR Image Imputation via
-Conditional Generative Adversarial Nets**
+
+**Recovering from Missing Data in Population Imaging – Cardiac MR Image Imputation via Conditional Generative Adversarial Nets**
 
 In this work, we propose a new robust approach, coined Image Imputation
 Generative Adversarial Network (I2-GAN), to learn key features of cardiac short axis
@@ -227,6 +234,11 @@ Text-Segmentation Guidance, Style Guidance, Text-Style Guidance, and FaceID Guid
 文章通过多个实验展示了 CoPE 在处理选择性复制、计数任务以及语言和编码任务中相对于传统方法的优越性，尤其是在处理分布外数据和需要高泛化能力的任务上表现出更强的性能。
 CoPE 为大型语言模型提供了一种更为高效和灵活的位置编码方式，拓宽了模型在自然语言处理领域的应用范围。
 有网友表示，CoPE 的出现改变了在 LLM 中进行位置编码的游戏规则，此后，研究者能够在一个句子中精确定位特定的单词、名词或句子，这一研究非常令人兴奋。
+</details>
+
+
+<details>
+<summary>08/07/2024-14/07/2024</summary>
 
 ---
 ## 15/07/2024-21/07/2024
@@ -282,3 +294,4 @@ VQ-VAE-2，由Ali Razavi等人于2019年提出，是VQ-VAE的升级版。它引�
 
 ![image](/images/free_unet_2.png)
 ![image](/images/free_unet_3.png)
+</details>
