@@ -294,4 +294,31 @@ VQ-VAE-2，由Ali Razavi等人于2019年提出，是VQ-VAE的升级版。它引�
 
 ![image](/images/free_unet_2.png)
 ![image](/images/free_unet_3.png)
+
+___
+### Vlogger: Make Your Dream A Vlog
+With such a design of mimicking human beings, our
+Vlogger can generate vlogs through explainable cooperation of top-down planning and bottom-up shooting. Moreover, we introduce a novel video diffusion model, ShowMaker, which serves as a videographer in our Vlogger for
+generating the video snippet of each shooting scene. By
+incorporating Script and Actor attentively as textual and
+visual prompts, it can effectively enhance spatial-temporal
+coherence in the snippet. Besides, we design a concise
+mixed training paradigm for ShowMaker, boosting its capacity for both T2V generation and prediction. Finally, the
+extensive experiments show that our method achieves stateof-the-art performance on zero-shot T2V generation and
+prediction tasks. 
+![image](/images/vlogger.png)
+![image](/images/showmaker.png)
+
+___
+### VBench: Comprehensive Benchmark Suite for Video Generative Models
+视频生成评价套件
+
+![image](/images/vbench.png)
+
+考虑用于设计损失函数
+
+---
+### VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models
+
+
 </details>
