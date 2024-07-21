@@ -320,5 +320,14 @@ ___
 ---
 ### VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models
 
+用Adapter来微调模型，可以替换原视频中的一些物体
 
+---
+### Object-Conditioned Energy-Based Attention Map Alignment in Text-to-Image Diffusion Models
+Yet, these models may still
+fail to semantically align generated images with the provided text prompts,
+leading to problems like incorrect attribute binding and/or catastrophic
+object neglect. Given the pervasive object-oriented structure underlying text prompts, we introduce a novel object-conditioned Energy-Based
+Attention Map Alignment (EBAMA) method to address the aforementioned problems. We show that an object-centric attribute binding loss
+naturally emerges by approximately maximizing the log-likelihood of a z-parameterized energy-based model with the help of the negative sampling technique
 </details>
