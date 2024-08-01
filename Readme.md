@@ -331,3 +331,27 @@ object neglect. Given the pervasive object-oriented structure underlying text pr
 Attention Map Alignment (EBAMA) method to address the aforementioned problems. We show that an object-centric attribute binding loss
 naturally emerges by approximately maximizing the log-likelihood of a z-parameterized energy-based model with the help of the negative sampling technique
 </details>
+
+
+<details>
+<summary>08/07/2024-14/07/2024</summary>
+
+---
+SOTA tricks
+1. R-Drop: 两次前向+KL Loss约束
+2. fp16
+3. 多卡ddp 使用no_sync
+4. ArcFaceLoss
+5. *对抗训练 FGM PGD
+6. *蒸馏
+7. Data Augmentation: cutmix, mosaic
+8. *噪声数据删除 最大熵删除 cleanlab
+9. SWA
+
+---
+## Visual Prompting via Image Inpainting
+
+![image](/images/MAE-VQGAN.png)
+![image](/images/Visual_Prompt.png)
+
+</details>
